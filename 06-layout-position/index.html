@@ -9,22 +9,72 @@
   </head>
   <body>
     <!-- Positioning -->
+    <div class="relative w-1/2 h-12 bg-red-200">
+      <p>Parent element</p>
+      <div class="absolute bottom-0 right-0 bg-red-500">
+        <p>Absolute Child</p>
+      </div>
+    </div>
 
     <!-- Top left corner -->
+    <div class="relative w-32 h-32 bg-red-200">      
+      <div class="absolute top-0 left-0 h-16 w-16 bg-yellow-200">
+        <p>Absolute Child</p>
+      </div>
+      <p>Parent element</p>
+    </div>
 
     <!-- Top right corner -->
+    <div class="relative w-32 h-32 bg-green-200">      
+      <div class="absolute top-0 right-0 h-16 w-16 bg-yellow-200">
+        <p>Absolute Child</p>
+      </div>
+      <p>Parent element</p>
+    </div>
 
     <!-- Bottom left corner -->
+    <div class="relative w-32 h-32 bg-green-200">      
+      <div class="absolute bottom-0 left-0 h-16 w-16 bg-yellow-200">
+        <p>Absolute Child</p>
+      </div>
+      <p>Parent element</p>
+    </div>
 
     <!-- Bottom right corner -->
+    <div class="relative w-32 h-32 bg-green-200">      
+      <div class="absolute bottom-0 right-0 h-16 w-16 bg-yellow-200">
+        <p>Absolute Child</p>
+      </div>
+      <p>Parent element</p>
+    </div>
 
     <!-- Span top edge -->
+    <div class="relative w-32 h-32 bg-gray-200">      
+      <div class="absolute inset-x-0 h-16 top-0 bg-red-300">
+        <p>Span top edge</p>
+      </div>
+    </div>
 
     <!-- Span left edge -->
+    <div class="relative w-32 h-32 bg-gray-200">      
+      <div class="absolute inset-y-0 left-0 w-16 bg-red-300">
+        <p>Span left edge</p>
+      </div>
+    </div>
 
     <!-- Span right edge -->
+    <div class="relative w-32 h-32 bg-gray-200">      
+      <div class="absolute inset-y-0 right-0 w-16 bg-red-300">
+        <p>Span right edge</p>
+      </div>
+    </div>
 
     <!-- Span bottom edge -->
+    <div class="relative w-32 h-32 bg-gray-200">      
+      <div class="absolute inset-x-0 bottom-0 h-16 bg-red-300">
+        <p>Span bottom edge</p>
+      </div>
+    </div>
 
     <!-- Display Classes -->
 
